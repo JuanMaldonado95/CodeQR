@@ -1,0 +1,50 @@
+.general {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 8px;
+    width: 50%;
+    height: 70%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-width: 200px;
+    max-height: 352px;
+}
+
+.image{
+    display: flex;
+    max-width: 100%;
+    margin: 0
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Outfit', sans-serif;
+    color: #0e1f37;
+    margin-bottom: 7px;
+}
+
+h6 {
+    margin-top: 7px;
+    font-family: 'Outfit', sans-serif;
+    color: #8c8d91;
+    padding: 0 10px;
+}
